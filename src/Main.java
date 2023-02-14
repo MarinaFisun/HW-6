@@ -38,7 +38,7 @@ public class Main {
     }
     public static void task3() {
         System.out.println("Task 3");
-        int year = 2000;
+        int year = 2002;
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
             System.out.println(year + " год является високосным");
         } else {
@@ -84,6 +84,5 @@ public class Main {
             default:
                 System.out.println("Невозможно определить значение");
         }
-
     }
 }

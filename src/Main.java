@@ -82,7 +82,7 @@ public class Main {
                 System.out.println("Осень");
                 break;
             default:
-                System.out.println("Невозможно определить");
+                System.out.println("Невозможно определить значение");
         }
 
     }
